@@ -1,0 +1,24 @@
+
+{
+    "Information" : [
+        "This file provides default values for the deployment wizard inside Visual Studio and the AWS Lambda commands added to the .NET Core CLI.",
+        "To learn more about the Lambda commands with the .NET Core CLI execute the following command at the command line in the project root directory.",
+        "dotnet lambda help",
+        "All the command line options for the Lambda command can be specified in this file."
+    ],
+    "profile"     : "default",
+    "region"      : "us-east-2",
+    "configuration" : "Release",
+    "framework"     : "netcoreapp3.1",
+    "function-runtime" : "dotnetcore3.1",
+    "function-memory-size" : 128,
+    "function-timeout"     : 3,
+    "function-handler"     : "AWSLambdaEpsagonDemo::AWSLambdaEpsagonDemo.AWSLambdaFunction::HandlerFunction",
+    "function-name"        : "AWSLambdaFunction",
+    "function-description" : "AWSLambdaEpsagonDemo",
+    "package-type"         : "Zip",
+    "function-role"        : "arn:aws:iam::921241454336:role/lambda_exec_AWSLambdaFunction",
+    "tracing-mode"         : "Active",
+    "environment-variables" : "\"EPSAGON_METADATA\"=\"False\";\"EPSAGON_HANDLER\"=\"lambda_function.lambda_handler\";\"AWS_LAMBDA_EXEC_WRAPPER\"=\"/opt/codeguru_profiler_lambda_exec\";\"EPSAGON_TOKEN\"=\"e70d9f37-4dc6-45a0-a69a-9df901c175e6\"",
+    "image-tag"             : ""
+}

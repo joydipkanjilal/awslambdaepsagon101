@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "Mock Lambda Test Tool": {
+      "commandName": "Executable",
+      "executablePath": "%USERPROFILE%\\.dotnet\\tools\\dotnet-lambda-test-tool-3.1.exe",
+      "commandLineArgs": "--port 5050",
+      "workingDirectory": ".\\bin\\$(Configuration)\\netcoreapp3.1",
+      "environmentVariables": {
+        "EPSAGON_TOKEN": "Specify your Epsagon Token here...",
+        "EPSAGON_APP_NAME": "AWSLambdaEpsagonDemo"
+      }
+    }
+  }
+}

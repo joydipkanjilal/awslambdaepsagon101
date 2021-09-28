@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>AWSLambdaEpsagonDemo</id>
+    <version>1.0.0</version>
+    <authors>AWSLambdaEpsagonDemo</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Amazon.Lambda.Core" version="1.2.0" exclude="Build,Analyzers" />
+        <dependency id="Amazon.Lambda.Serialization.SystemTextJson" version="2.1.0" exclude="Build,Analyzers" />
+        <dependency id="Epsagon.Dotnet.Lambda" version="1.22.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Workarea\Important Files and Folders\Articles\IOD\Articles\EPS 120 AWS Lambda and .NET Getting Started Guide\AWSLambdaEpsagonDemo\bin\Debug\netcoreapp3.1\AWSLambdaEpsagonDemo.runtimeconfig.json" target="lib\netcoreapp3.1\AWSLambdaEpsagonDemo.runtimeconfig.json" />
+    <file src="C:\Workarea\Important Files and Folders\Articles\IOD\Articles\EPS 120 AWS Lambda and .NET Getting Started Guide\AWSLambdaEpsagonDemo\bin\Debug\netcoreapp3.1\AWSLambdaEpsagonDemo.dll" target="lib\netcoreapp3.1\AWSLambdaEpsagonDemo.dll" />
+  </files>
+</package>

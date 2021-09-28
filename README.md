@@ -1,1 +1,1 @@
-# Getting Started with AWS and Epsagon
+# Getting Started with AWS Lambda and Epsagon
